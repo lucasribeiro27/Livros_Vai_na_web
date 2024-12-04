@@ -71,7 +71,7 @@ footer{
  }
   }
 
-@media(max-width:380px){
+@media(max-width:451px){
    .boxSocial{
     flex-direction: column;
     justify-content: space-evenly;
@@ -80,7 +80,7 @@ footer{
     padding-right: 0;
 
     h3{
-        font-size: 18px;
+        font-size: 25px;
     }
     nav{
         width: 50%;

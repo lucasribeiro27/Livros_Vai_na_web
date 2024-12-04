@@ -1,5 +1,4 @@
 footer{
-    // border: solid green 2px;
     height: 30vh;
     color: white;
 }
@@ -31,12 +30,34 @@ footer{
 @media(max-width: 1170px){
 .boxSocial{
     h3{
-        font-size: 1.7vw;
+        font-size: 28px;
     }
 }
 }
-
 @media(max-width: 760px){
+    .boxSocial{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+        h3{
+            font-size: 20px;
+        }
+        nav{
+            width: 30vw;
+            img{
+               width: 25px;
+            }
+        }
+       }
+       .boxTexto{
+        P{
+            width: 80%;
+       }
+        }
+        
 }
 @media(max-width:380px){
    .boxSocial{

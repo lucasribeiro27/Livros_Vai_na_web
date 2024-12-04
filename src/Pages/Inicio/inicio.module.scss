@@ -42,9 +42,8 @@
     justify-content: space-evenly;
     border-radius: 20px;
     p {
-      // border: solid 2px yellow;
       width: 70%;
-      font-size: 20px;
+      font-size: 18px;
       text-align: center;
     }
   }
@@ -53,7 +52,7 @@
   .boxCard {
     article {
       p {
-        font-size: 1.5vw;
+        font-size: 1.3vw;
       }
     }
   }
@@ -91,14 +90,21 @@
     }
   }
 }
-@media(max-width: 427px){
-    .devoDoar{
-        height: 220vh;
-        justify-content: space-evenly;
-        display: flex;
-        flex-direction: column;
-    }
-    .boxCard{
-        height: auto;
-    }
+@media (max-width: 451px) {
+  .post {
+    height: 50vh;
+  }
+  .devoDoar {
+    height: auto;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+  .boxCard {
+    height: auto;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+  }
 }

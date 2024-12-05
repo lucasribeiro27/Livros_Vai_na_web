@@ -56,12 +56,13 @@ input:nth-child(6){
    cursor: pointer;
    font-size: 18px;
 }
-@media(width:450px){
+@media(max-width:450px){
   .container{
     width: 90%;
     align-items: center;
+    
     h2{
-      font-size: 20px;
+      font-size: 18px;
       text-align: center;
     }
   }

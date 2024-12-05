@@ -55,6 +55,7 @@ input:nth-child(6){
 }
 @media(width:450px){
   .container{
+    align-items: center;
     width: 80%;
     h2{
       font-size: 20px;
